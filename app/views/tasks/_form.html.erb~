@@ -6,8 +6,8 @@
     <%= f.text_field :name %>
   </p>
   <p>
-    <%= f.label :created_at %><br />
-    <%= f.date_select :created_at %>
+    <%= f.label :completed_at %><br />
+    <%= f.date_select :completed_at %>
   </p>
   <p><%= f.submit %></p>
 <% end %>

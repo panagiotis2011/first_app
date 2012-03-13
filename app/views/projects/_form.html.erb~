@@ -1,6 +1,6 @@
-<%= error_messages_for :project %>
-<%= form_for @project do |f| %>
 
+<%= form_for @project do |f| %>
+ <%= render 'shared/error_messages', :object => f.object %>
   <p>
 
     <%= f.text_field :article %>
